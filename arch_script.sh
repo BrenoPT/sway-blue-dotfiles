@@ -13,8 +13,8 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-sudo pacman -S wofi kitty 
-yay -S ttf-jetbrains-mono-nerd librewolf yazi-git pfetch clipman
+sudo pacman -S wofi kitty  --noconfirm
+yay -S ttf-jetbrains-mono-nerd librewolf yazi-git pfetch clipman --noconfirm
 
 fc-cache -f -v
 
